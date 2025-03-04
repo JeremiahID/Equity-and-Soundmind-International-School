@@ -344,7 +344,7 @@ nav ul li a:hover{
 
 /* SCHHOL VALUES STYLING */
 .school-values{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.800),  rgba(0, 0, 0, 0.800)), url("/assets/images/Mission-underlay.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.918),  rgba(0, 0, 0, 0.76)), url("/assets/images/Mission-underlay.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -354,9 +354,9 @@ nav ul li a:hover{
 }
 
 .value-2{
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: #5a5b5f8a;
 }
 
 .value-3{
-  background-color: #fff0f017;
+  background-color: #383634b0;
 }
