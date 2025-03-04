@@ -283,9 +283,10 @@ nav ul li a:hover{
 
 
 /* Events Gallery */
+
 .events{
   width: 90%;
-  height: 10%;
+  height: 2vh;
   background-color: #650018;
 }
 
