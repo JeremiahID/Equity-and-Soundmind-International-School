@@ -78,13 +78,13 @@ body {
   left: 0;
   margin-top: 0.5rem;
 }
-.blur-10 {
+/* .blur-10 {
   backdrop-filter: blur(0.1rem);
 }
 
 .blur-20 {
   backdrop-filter: blur(0.2rem);
-}
+} */
 .vh-75 {
   min-height: 75vh;
 }
@@ -100,14 +100,12 @@ body {
 .bg-grey {
   background-color: #9e9da3;
 }
-.bg-orange {
-  background-color: #f89406;
-}
+
 .btn-primary {
-  --bs-btn-bg: #004931;
-  --bs-btn-border-color: #004931;
-  --bs-btn-disabled-bg: #004931;
-  --bs-btn-disabled-border-color: #004931;
+  --bs-btn-bg: #83181A;
+  --bs-btn-border-color: #83181A;
+  --bs-btn-disabled-bg: #83181A;
+  --bs-btn-disabled-border-color: #83181A;
 }
 .btn-secondary {
   --bs-btn-bg: #052747;
@@ -116,14 +114,14 @@ body {
   --bs-btn-disabled-border-color: #052747;
 }
 .btn-outline-primary {
-  --bs-btn-color: #004931;
-  --bs-btn-border-color: #004931;
-  --bs-btn-hover-bg: #004931;
-  --bs-btn-hover-border-color: #004931;
-  --bs-btn-active-bg: #004931;
-  --bs-btn-active-border-color: #004931;
-  --bs-btn-disabled-color: #004931;
-  --bs-btn-disabled-border-color: #004931;
+  --bs-btn-color: #83181A;
+  --bs-btn-border-color: #83181A;
+  --bs-btn-hover-bg: #83181A;
+  --bs-btn-hover-border-color: #83181A;
+  --bs-btn-active-bg: #83181A;
+  --bs-btn-active-border-color: #83181A;
+  --bs-btn-disabled-color: #83181A;
+  --bs-btn-disabled-border-color: #83181A;
 }
 
 /* Some default text and background color styling, fonts */
@@ -165,8 +163,12 @@ body {
   color: #7F828C;
 }
 
+.text-school-red{
+  color: #83181A;
+}
+
 .bg-subtle-white{
-  background-color: #fdfdfdda;
+  background-color: #fdfdfdf5;
 }
 
 .bg-school-red{
@@ -181,14 +183,22 @@ body {
   font-family: candara light;
 }
 
+.ff-impact{
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.t-s{
+  letter-spacing: ;
+}
+
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #004931;
+  color: #83181A;
   background-color: var(--bs-dropdown-link-hover-bg);
 }
 
 .bg-green {
-  background-color: #004931;
+  background-color: #83181A;
 }
 .bg-green-25 {
   background-color: hwb(161 0% 72% / 0.6);
@@ -272,29 +282,23 @@ nav ul li a:hover{
 }
 
 .about-img {
-  background-image: url("/assets/images/about-image.jpg");
+  background-image: url("/assets/junks-images/IMG_1648.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.welcome-to{
+  width: 2vw;
+  height: .3vh;
+  background-color: #5a5b5f;
+}
+
 
 /* Some default styling */
-.bg-green-dark {
-  background-color: #002418;
-}
-.bg-green-light {
-  background-color: #006745;
-}
-.bg-green-lighter {
-  background-color: #008459;
-}
-.bg-blue {
-  background-color: #052747;
-}
 .btn-primary:hover {
-  color: #004931;
+  color: #83181A;
   background-color: #fff !important;
-  border: 1px solid #0049313f !important;
+  border: 1px solid #83181A3f !important;
 }
 .btn-secondary:hover {
   color: #052747;
@@ -302,29 +306,15 @@ nav ul li a:hover{
   border: 1px solid #0527473f !important;
 }
 .small-menu:hover {
-  color: #004931 !important;
+  color: #83181A !important;
   background-color: #f4f4f2;
 }
 
 .small-menu-active {
-  color: #004931 !important;
+  color: #83181A !important;
   background-color: #f4f4f2;
 }
-.text-blue {
-  color: #052747;
-}
-.small-menu-active-blue {
-  color: #052747 !important;
-  background-color: #f4f4f2;
-}
-.small-menu-blue {
-  /* color: #052747 !important; */
-  /* background-color: #f4f4f2; */
-}
-.small-menu-blue:hover {
-  color: #052747 !important;
-  background-color: #f4f4f2;
-}
+
 .circle-img {
   border-radius: 50%;
   width: 60px;
@@ -356,23 +346,15 @@ nav ul li a:hover{
   transition: var(--bs-navbar-toggler-transition);
 }
 
-/* ABOUT STYLING */
-
-
-
 /* SCHHOL VALUES STYLING */
 .school-values{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.800),  rgba(0, 0, 0, 0.800)), url("/assets/images/school-colleagues-holding-each-other.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.89),  rgba(0, 0, 0, 0.800)), url("/assets/images/Mission-underlay.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* .values-wrapper{
-  width: 25%;
-} */
-
 .value-1{
-  background-color: #fff0f017;
+  background-color: #fff0f04b;
 }
 
 .value-2{
