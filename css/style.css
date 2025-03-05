@@ -145,6 +145,10 @@ body {
   text-align: justify;
 }
 
+.text-school-white{
+  color: #fdfdfdf5;
+}
+
 .text-dark-grey{
   color: #383634;
 }
@@ -208,6 +212,7 @@ body {
   background-attachment: fixed;
   animation: scrollBack 30s linear forwards;
 }
+
 @keyframes scrollBack {
   from {
     transform: translateX(0px);
@@ -216,6 +221,7 @@ body {
     transform: translateX(-330px);
   }
 }
+
 .img-carousel-2 {
   background-image: url("/assets/carousel/2.jpg");
   background-size: cover;
@@ -234,6 +240,7 @@ body {
   background-attachment: fixed;
   animation: scrollBack 30s linear infinite forwards;
 }
+
 @keyframes scrollforward {
   from {
     transform: translateX(-100px);
@@ -242,6 +249,7 @@ body {
     transform: translateX(330px);
   }
 }
+
 .index-2 {
   z-index: 2;
 }
@@ -282,6 +290,25 @@ nav ul li a:hover{
 }
 
 
+/* SCHHOL VALUES STYLING */
+.school-values{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.918),  rgba(0, 0, 0, 0.76)), url("/assets/images/Mission-underlay.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.value-1{
+  background-color: #fff0f04b;
+}
+
+.value-2{
+  background-color: #5a5b5f8a;
+}
+
+.value-3{
+  background-color: #383634b0;
+}
+
 /* Events Gallery */
 
 .events{
@@ -306,7 +333,6 @@ nav ul li a:hover{
   min-width: 350px;
   height: 50vh;
   border-radius: 10px;
-  /* background-color: #e2d5d5; */
   position: absolute;
   animation: scrollLeft 25s linear 0s infinite;
   cursor: pointer;
@@ -332,13 +358,14 @@ nav ul li a:hover{
   animation-delay: calc(25s / 5 * (5 - 5) * -1);
 }
 
-/*  */
+/* events images */
 .event-img{
   width: 100%;
   height: 70%;
   background-color: #5a5b5f;
 }
 
+/* Event links */
 .event-link-container{
   background-color: #650018;
   height: 40%;
@@ -403,21 +430,11 @@ nav ul li a:hover{
   transition: var(--bs-navbar-toggler-transition);
 }
 
-/* SCHHOL VALUES STYLING */
-.school-values{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.918),  rgba(0, 0, 0, 0.76)), url("/assets/images/Mission-underlay.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+hr{
+  height: .2rem ;
+  background-color: #f4f4f2;
 }
 
-.value-1{
-  background-color: #fff0f04b;
-}
-
-.value-2{
-  background-color: #5a5b5f8a;
-}
-
-.value-3{
-  background-color: #383634b0;
+.footer-hover:hover{
+  color: #d8c4c486 !important;
 }
