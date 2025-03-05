@@ -287,7 +287,7 @@ nav ul li a:hover{
 .events{
   width: 90%;
   max-width: 1536px;
-  height: 50vh;
+  height: 65vh;
   overflow: hidden;
   margin-inline: auto;
   margin-top: 1em;
@@ -297,20 +297,21 @@ nav ul li a:hover{
 /* Aniamtion for the event */
 @keyframes scrollLeft {
   to{
-      left: -310px;
+      left: -350px;
   }
 }
 
 /* Styling the event items  */
 .events-items{
   min-width: 350px;
-  height: inherit;
-  border-radius: 6px;
+  height: 50vh;
+  border-radius: 10px;
   background-color: #e2d5d5;
   position: absolute;
   animation: scrollLeft 25s linear 0s infinite;
-
-      /* for responsiveness */
+  cursor: pointer;
+  box-shadow: 3px 2px 5px 1px #38363470;
+    /* for responsiveness */
   left: calc(350px * 5);
 }
 
