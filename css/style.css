@@ -178,6 +178,15 @@ body {
   
 }
 
+.bg-school-grey-25{
+  background-color: #383634d2;
+  
+}
+
+.contact-color{
+  color: #d8c4c4e8 ;
+}
+
 .ff-c{
   font-family: candara;
 }
@@ -431,10 +440,14 @@ nav ul li a:hover{
 }
 
 hr{
-  height: .2rem ;
+  height: .15rem ;
   background-color: #f4f4f2;
 }
 
 .footer-hover:hover{
   color: #d8c4c486 !important;
+}
+
+.mt-7{
+  margin-top: 3.5rem;
 }
