@@ -285,10 +285,58 @@ nav ul li a:hover{
 /* Events Gallery */
 
 .events{
-  width: 90%;
-  height: 2vh;
-  background-color: #650018;
+  width: 95%;
+  max-width: 98%;
+  height: 50vh;
+  overflow: hidden;
+  margin-inline: auto;
+  margin-top: 1em;
+  /* background-color: #650018; */
+  position: relative;
+  border: 2px solid #83181A;
 }
+
+/* Aniamtion for the event */
+@keyframes scrollLeft {
+  to{
+      left: -200px;
+  }
+}
+
+/* Styling the event items  */
+.events-items{
+  width: 20vw;
+  height: inherit;
+  border-radius: 6px;
+  background-color: #e2d5d5;
+  position: absolute;
+  animation: scrollLeft 20s linear 0s infinite;
+
+      /* for responsiveness */
+  left: calc(300px * 5);
+}
+
+/* Each event item calculation */
+.item-1{
+  animation-delay: calc(20s / 5 * (5 - 1) * -1);
+}
+.item-2{
+  animation-delay: calc(20s / 5 * (5 - 2) * -1);
+}
+.item-3{
+  animation-delay: calc(20s / 5 * (5 - 3) * -1);
+}
+.item-4{
+  animation-delay: calc(20s / 5 * (5 - 4) * -1);
+}
+.item-5{
+  animation-delay: calc(20s / 5 * (5 - 5) * -1);
+}
+
+
+
+
+
 
 /* Some default styling */
 .btn-primary:hover {
