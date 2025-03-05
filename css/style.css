@@ -306,11 +306,11 @@ nav ul li a:hover{
   min-width: 350px;
   height: 50vh;
   border-radius: 10px;
-  background-color: #e2d5d5;
+  /* background-color: #e2d5d5; */
   position: absolute;
   animation: scrollLeft 25s linear 0s infinite;
   cursor: pointer;
-  box-shadow: 3px 2px 5px 1px #38363470;
+  /* box-shadow: 3px 2px 5px 1px #38363470; */
     /* for responsiveness */
   left: calc(350px * 5);
 }
@@ -332,8 +332,22 @@ nav ul li a:hover{
   animation-delay: calc(25s / 5 * (5 - 5) * -1);
 }
 
+/*  */
+.event-img{
+  width: 100%;
+  height: 70%;
+  background-color: #5a5b5f;
+}
 
-
+.event-link-container{
+  background-color: #650018;
+  height: 40%;
+  width: 80%;
+  position: relative;
+  bottom: 2rem;
+  z-index: 1;
+  
+}
 
 
 
