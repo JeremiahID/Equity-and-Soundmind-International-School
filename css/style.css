@@ -388,6 +388,11 @@ nav ul li a:hover{
 
 }
 
+.event-link:hover{
+  transition: all .5s ease 0s !important;
+  color: #83181A;
+}
+
 
 .event-img-default{
   background-position: top;
@@ -397,6 +402,26 @@ nav ul li a:hover{
 
 .event-img-one{
   background-image: url('/assets/junks-images/IMG_1653.JPG');
+
+}
+
+.event-img-two{
+  background-image: url('/assets/junks-images/school-colleagues-holding-each-other.jpg');
+
+}
+
+.event-img-three{
+  background-image: url('/assets/junks-images/IMG_1650.JPG');
+
+}
+
+.event-img-four{
+  background-image: url('/assets/junks-images/IMG_1649.JPG');
+
+}
+
+.event-img-five{
+  background-image: url('/assets/junks-images/IMG_20240626_101600_899.jpg');
 
 }
 
