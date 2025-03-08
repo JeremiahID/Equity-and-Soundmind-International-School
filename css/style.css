@@ -179,7 +179,7 @@ body {
 }
 
 .bg-school-grey-25{
-  background-color: #383634d2;
+  background-color: #38363410;
   
 }
 
@@ -394,7 +394,7 @@ nav ul li a:hover{
 }
 
 
-.event-img-default{
+.img-default{
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -458,6 +458,22 @@ nav ul li a:hover{
   background-image: url('/assets/junks-images/IMG_1662.JPG');
 }
 
+
+/* Admission page styles */
+.Admission-img-one{
+  background-image: url('/assets/junks-images/IMG_1652.JPG');
+
+}
+
+.Admission-img-two{
+  background-image: url('/assets/junks-images/IMG_1650.JPG');
+
+}
+
+.Admission-img-three{
+  background-image: url('/assets/junks-images/IMG_1653.JPG');
+
+}
 
 
 
