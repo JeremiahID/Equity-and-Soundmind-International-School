@@ -452,7 +452,11 @@ nav ul li a:hover{
   transform: scale(1.05);
 }
 
-/*  */
+/* About page styling */
+
+.About-side-img{
+  background-image: url('/assets/junks-images/IMG_1662.JPG');
+}
 
 
 
