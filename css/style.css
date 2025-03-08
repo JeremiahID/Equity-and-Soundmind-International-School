@@ -427,7 +427,6 @@ nav ul li a:hover{
 
 /* Gallery */
 .gallery{
-  /* position: relative; */
   min-height: 70vh; 
   margin-top: 5vh; 
   width: 100%;
@@ -452,6 +451,8 @@ nav ul li a:hover{
 .hover1s:hover {
   transform: scale(1.05);
 }
+
+/*  */
 
 
 
