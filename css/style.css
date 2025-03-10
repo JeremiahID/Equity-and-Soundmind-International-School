@@ -427,19 +427,26 @@ nav ul li a:hover{
 
 /* Event page styling */
 .event-svg{
- width: 2vw;
+ width: 1.5vw;
 }
 
 .event-container{
-  box-shadow: 2px 2px 1px 2px #650018;
+  box-shadow: 2px 2px 1px 2px #83181A;
 }
 
 .event-date{
   height: 70%;
+  background-color: #83181A;
+}
+
+.event-date h1{
+  font-size: 5rem;
+  line-height:4rem;
 }
 
 .event-time-location{
   height: 30%;
+  border-left: 1px solid #83181A;
 }
 
 /* Gallery */
@@ -569,4 +576,16 @@ hr{
     width: 100%;
     height: 40vh;
   }
+
+  .event-svg{
+    width: 2.5vw;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+  .event-svg{
+    width: 5vw;
+  }
+
 }
