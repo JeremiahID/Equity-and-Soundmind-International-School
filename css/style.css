@@ -425,6 +425,12 @@ nav ul li a:hover{
 
 }
 
+.event-svg{
+ width: 2vw;
+}
+
+
+
 /* Gallery */
 .gallery{
   min-height: 70vh; 
@@ -540,4 +546,16 @@ hr{
 
 .mt-7{
   margin-top: 3.5rem;
+}
+
+
+
+
+/* Various View Port */
+
+@media screen and (max-width: 980px) {
+  .img-fit{
+    width: 100%;
+    height: 40vh;
+  }
 }
