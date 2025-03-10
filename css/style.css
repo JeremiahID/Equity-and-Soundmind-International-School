@@ -173,6 +173,10 @@ body {
   background-color: #83181A;
 }
 
+.bg-school-red-50{
+  background-color: #83181a;
+}
+
 .bg-school-grey{
   background-color: #383634;
   
@@ -497,6 +501,13 @@ nav ul li a:hover{
 .Admission-img-three{
   background-image: url('/assets/junks-images/IMG_1653.JPG');
 
+}
+
+#admission-footer{
+  background-image: linear-gradient( #83181a4f,  #83181a4f), url("/assets/images/Mission-underlay.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
