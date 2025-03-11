@@ -187,7 +187,7 @@ body {
   background-color: #83181a;
 }
 
-.bg-school-red-25{
+.bg-school-red-25 {
   background-color: #83181a57;
 }
 
@@ -604,7 +604,13 @@ hr{
 
   .event-svg{
     width: 2.5vw;
+    
   }
+
+  .about-img {
+    background-position: top;
+  }
+
 
 }
 
