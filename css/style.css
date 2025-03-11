@@ -79,6 +79,16 @@ body {
   margin-top: 0.5rem;
 }
 
+.blur-10 {
+  -webkit-backdrop-filter: blur(0.1rem);
+  backdrop-filter:  blur(0.1rem);
+}
+
+.blur-20 {
+  -webkit-backdrop-filter: blur(0.2rem);
+  backdrop-filter: blur(0.2rem);
+}
+
 .vh-75 {
   min-height: 75vh;
 }
@@ -175,6 +185,10 @@ body {
 
 .bg-school-red-50{
   background-color: #83181a;
+}
+
+.bg-school-red-25{
+  background-color: #83181a57;
 }
 
 .bg-school-grey{
