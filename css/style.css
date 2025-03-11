@@ -3,6 +3,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  overflow-x: hidden;
 }
 
 .fw-inherit {
@@ -517,12 +518,14 @@ nav ul li a:hover{
 
 }
 
+/* Footer Admission */
 #admission-footer{
   background-image: linear-gradient( #83181a4f,  #83181a4f), url("/assets/images/Mission-underlay.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 
 
 
@@ -604,13 +607,12 @@ hr{
 
   .event-svg{
     width: 2.5vw;
-    
+
   }
 
   .about-img {
     background-position: top;
   }
-
 
 }
 
