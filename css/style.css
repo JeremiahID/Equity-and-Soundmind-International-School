@@ -192,6 +192,10 @@ body {
   background-color: #83181a57;
 }
 
+.bg-school-linear{
+  background-image: linear-gradient(to bottom right, #83181a, #83181ae3, #83181a73, #83181a00);
+}
+
 .bg-school-grey{
   background-color: #383634;
   
