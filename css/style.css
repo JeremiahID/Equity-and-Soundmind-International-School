@@ -532,6 +532,20 @@ nav ul li a:hover{
 }
 
 
+/* Events and Programs page styling */
+#director{
+  height: 40vh;
+}
+
+.director-img{
+  height: 80%;
+  width: 350px;
+}
+
+.director-name{
+  width: 350px;
+  height: 20%;
+}
 
 
 /* Some default styling */
