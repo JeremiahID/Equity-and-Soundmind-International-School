@@ -533,17 +533,18 @@ nav ul li a:hover{
 
 
 /* Events and Programs page styling */
-#director{
+#director, #principal, #head-teacher{
   height: 40vh;
 }
 
+
 .director-img{
   height: 80%;
-  width: 350px;
+  width: 340px;
 }
 
 .director-name{
-  width: 350px;
+  width: 340px;
   height: 20%;
 }
 
@@ -631,6 +632,9 @@ hr{
 
   .about-img {
     background-position: top;
+  }
+  #ph-wrapper{
+    flex-direction: column;
   }
 
 }
