@@ -637,11 +637,26 @@ hr{
     flex-direction: column;
   }
 
+  .director-img{
+    width: 500px;
+  }
+  
+  .director-name{
+    width: 500px;
+  }
+
 }
 
 @media screen and (max-width: 560px) {
   .event-svg{
     width: 5vw;
+  }
+  .director-img{
+    width: 330px;
+  }
+  
+  .director-name{
+    width: 330px;
   }
 
 }
