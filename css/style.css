@@ -255,7 +255,7 @@ body {
 }
 
 .img-carousel-2 {
-  background-image: url("/assets/junks-images/IMG_1660.JPG");
+  background-image: url("/assets/junks-images/IMG_20240717_142302_925.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -264,7 +264,7 @@ body {
   animation: scrollforward 30s linear infinite forwards;
 }
 .img-carousel-3 {
-  background-image: url("/assets/junks-images/IMG_1661_.JPG");
+  background-image: url("/assets/junks-images/IMG_1653.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
