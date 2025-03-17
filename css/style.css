@@ -509,6 +509,7 @@ nav ul li a:hover{
 /* Admission page styles */
 .Admission-img-one{
   background-image: url('/assets/junks-images/IMG_1652.JPG');
+  background-position: center;
 
 }
 
