@@ -553,19 +553,21 @@ nav ul li a:hover{
 /* Principal image */
 .principal-image{
   background-image: url("/assets/images/Principal.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 90%;
-  height: 90%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+}
+
+.head-teacher-image{
+  background-image: url("/assets/images/head-teacher.JPG");
 }
 
 
 .staff-img-fit{
-  width: 90%;
-  height: 90%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  height: 95%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 /* Some default styling */
