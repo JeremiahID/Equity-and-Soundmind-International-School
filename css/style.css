@@ -566,8 +566,6 @@ nav ul li a:hover{
   background-size: cover;
   width: 95%;
   height: 95%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
 }
 
 /* Some default styling */
