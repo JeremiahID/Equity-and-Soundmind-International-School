@@ -440,22 +440,23 @@ nav ul li a:hover{
 }
 
 .event-img-two{
-  background-image: url('/assets/junks-images/school-colleagues-holding-each-other.jpg');
+  background-image: url('/assets/images/8.jpg');
 
 }
 
 .event-img-three{
-  background-image: url('/assets/junks-images/IMG_1650.JPG');
+  background-image: url('/assets/images/14.jpg');
+  background-position: bottom;
 
 }
 
 .event-img-four{
-  background-image: url('/assets/junks-images/IMG_1649.JPG');
+  background-image: url('/assets/images/19.jpg');
 
 }
 
 .event-img-five{
-  background-image: url('/assets/junks-images/IMG_20240626_101600_899.jpg');
+  background-image: url('/assets/images/20.jpg');
 
 }
 
