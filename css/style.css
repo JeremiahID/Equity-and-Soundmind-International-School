@@ -545,21 +545,26 @@ nav ul li a:hover{
 
 
 /* Events and Programs page styling */
-#director, #principal, #head-teacher{
+#director, #principal, #head-teacher, #staff{
   height: 50vh;
 }
 
 
-.director-img,.principal-img,.head-teacher-img{
+.director-img,.principal-img,.head-teacher-img,.staff-img{
   height: 80%;
   width: 340px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 
-.director-name, .principal-name, .head-teacher-name{
+.director-name, .principal-name, .head-teacher-name,.staff-name{
   width: 340px;
   height: 20%;
+}
+
+/* Director Image  */
+.director-image{
+  background-image: url("/assets/images/Director.jpg");
 }
 
 /* Principal image */
@@ -567,9 +572,17 @@ nav ul li a:hover{
   background-image: url("/assets/images/Principal.jpg");
 }
 
+/* Head Teacher image */
 .head-teacher-image{
   background-image: url("/assets/images/head-teacher.JPG");
 }
+
+/* Staff styling*/
+
+.staff-image{
+  background-image: url("/assets/images/9.jpg");
+}
+
 
 
 .staff-img-fit{
