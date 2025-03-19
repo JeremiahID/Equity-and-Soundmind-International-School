@@ -236,7 +236,7 @@ body {
   /* animation: scrollBg 3s linear forwards; */
 }
 .img-carousel-1 {
-  background-image: url("/assets/junks-images/IMG_20240717_134121_608.jpg");
+  background-image: url("/assets/images/4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -255,7 +255,7 @@ body {
 }
 
 .img-carousel-2 {
-  background-image: url("/assets/junks-images/IMG_20240717_142302_925.jpg");
+  background-image: url("/assets/images/12.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -264,7 +264,7 @@ body {
   animation: scrollforward 30s linear infinite forwards;
 }
 .img-carousel-3 {
-  background-image: url("/assets/junks-images/IMG_1653.JPG");
+  background-image: url("/assets/images/7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -272,6 +272,17 @@ body {
   background-attachment: fixed;
   animation: scrollBack 30s linear infinite forwards;
 }
+
+.img-carousel-4 {
+  background-image: url("/assets/junks-images/IMG_20240717_134121_608.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+  animation: scrollBack 30s linear infinite forwards;
+}
+
 
 @keyframes scrollforward {
   from {
@@ -324,7 +335,7 @@ nav ul li a:hover{
 
 /* SCHHOL VALUES STYLING */
 .school-values{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.918),  rgba(0, 0, 0, 0.76)), url("/assets/images/Mission-underlay.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.918),  rgba(0, 0, 0, 0.486)), url("/assets/images/10.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
