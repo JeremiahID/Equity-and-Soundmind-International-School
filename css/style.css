@@ -520,12 +520,12 @@ nav ul li a:hover{
 
 /* Admission page styles */
 .Admission-img-one{
-  background-image: url('/assets/junks-images/IMG_1652.JPG');
+  background-image: url('/assets/images/1.JPG');
   background-position: center;
 
 }
 
-.Admission-img-two{
+/* .Admission-img-two{
   background-image: url('/assets/junks-images/IMG_1650.JPG');
 
 }
@@ -533,7 +533,7 @@ nav ul li a:hover{
 .Admission-img-three{
   background-image: url('/assets/junks-images/IMG_1653.JPG');
 
-}
+} */
 
 /* Footer Admission */
 #admission-footer{
